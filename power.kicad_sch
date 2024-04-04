@@ -1507,7 +1507,7 @@
 		)
 		(uuid "34dc3172-64cc-4155-bc3e-ff51119e2ff2")
 	)
-	(hierarchical_label "5V"
+	(hierarchical_label "VBUS"
 		(shape input)
 		(at 78.74 62.23 180)
 		(fields_autoplaced yes)
@@ -1531,7 +1531,7 @@
 		)
 		(uuid "b3e1b5cb-3088-40af-aa38-f609fc0b8813")
 	)
-	(hierarchical_label "5V"
+	(hierarchical_label "VBUS"
 		(shape input)
 		(at 106.68 30.48 180)
 		(fields_autoplaced yes)

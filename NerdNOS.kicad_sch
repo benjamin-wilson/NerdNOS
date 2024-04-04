@@ -1354,17 +1354,6 @@
 		)
 		(uuid "facd2342-a994-4a97-9597-ca0e1f2df822")
 	)
-	(label "5V"
-		(at 196.85 99.06 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8760b3e6-48f3-4cbd-acc4-c2540c791bc5")
-	)
 	(label "GND"
 		(at 210.82 106.68 0)
 		(fields_autoplaced yes)
@@ -1853,7 +1842,7 @@
 			)
 			(uuid "b0dcf888-0815-4d6e-a93f-523ced0ebf96")
 		)
-		(pin "5V" input
+		(pin "VBUS" input
 			(at 99.06 128.27 180)
 			(effects
 				(font
@@ -1901,7 +1890,7 @@
 				(justify left top)
 			)
 		)
-		(pin "5V" input
+		(pin "VBUS" input
 			(at 167.64 74.93 0)
 			(effects
 				(font
@@ -1969,7 +1958,7 @@
 				(justify left top)
 			)
 		)
-		(pin "5V" input
+		(pin "VBUS" input
 			(at 181.61 120.65 0)
 			(effects
 				(font

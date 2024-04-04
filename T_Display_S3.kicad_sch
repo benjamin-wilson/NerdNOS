@@ -1010,7 +1010,7 @@
 		)
 		(uuid "14706046-b16a-4ce7-a6e9-02b23f6bc9bc")
 	)
-	(hierarchical_label "5V"
+	(hierarchical_label "VBUS"
 		(shape input)
 		(at 152.4 109.22 0)
 		(fields_autoplaced yes)
