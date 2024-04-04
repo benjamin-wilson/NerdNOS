@@ -548,6 +548,10 @@
 		(uuid "363fcc10-6cd0-4830-8c1b-b8b89b4df67a")
 	)
 	(no_connect
+		(at 144.78 81.28)
+		(uuid "69b4945f-abd9-4bbf-a591-95d56cb816b0")
+	)
+	(no_connect
 		(at 147.32 101.6)
 		(uuid "781f5bad-423f-4cea-baa2-6b2b3ea4189e")
 	)
@@ -555,15 +559,9 @@
 		(at 147.32 104.14)
 		(uuid "e75bdef4-077c-4e6c-adf1-88260b2d4930")
 	)
-	(wire
-		(pts
-			(xy 114.3 116.84) (xy 114.3 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02c40999-b84a-47eb-8819-4b70a191b41f")
+	(no_connect
+		(at 114.3 109.22)
+		(uuid "f1b6e577-7e49-4c4f-8eed-7913e8397c87")
 	)
 	(wire
 		(pts
@@ -697,7 +695,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 91.44) (xy 157.48 91.44)
+			(xy 144.78 91.44) (xy 166.37 91.44)
 		)
 		(stroke
 			(width 0)
@@ -817,16 +815,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 116.84) (xy 114.3 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdad6615-2bf1-476a-8477-252add664de0")
-	)
-	(wire
-		(pts
 			(xy 144.78 88.9) (xy 166.37 88.9)
 		)
 		(stroke
@@ -855,17 +843,7 @@
 		)
 		(uuid "eeea42f1-5885-4c7d-b6cc-1c2ad802e414")
 	)
-	(wire
-		(pts
-			(xy 144.78 81.28) (xy 157.48 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f91e3488-be12-44e7-b3ac-6173cdca15c3")
-	)
-	(label "II2C_SDA"
+	(label "GPIO18"
 		(at 97.79 91.44 0)
 		(fields_autoplaced yes)
 		(effects
@@ -876,7 +854,7 @@
 		)
 		(uuid "35b3dc08-ac4b-48ed-b722-386daf276456")
 	)
-	(label "ESP_TP_RESET"
+	(label "GPIO21"
 		(at 97.79 96.52 0)
 		(fields_autoplaced yes)
 		(effects
@@ -887,7 +865,7 @@
 		)
 		(uuid "4b6ff864-c4ec-4433-9262-efc12af7a011")
 	)
-	(label "U0TXD"
+	(label "GPIO43{slash}CLK_OUT1"
 		(at 97.79 86.36 0)
 		(fields_autoplaced yes)
 		(effects
@@ -898,7 +876,7 @@
 		)
 		(uuid "58e8f3fd-e68d-4eef-a407-47f2efad5833")
 	)
-	(label "ESP_TP_INT"
+	(label "GPIO16"
 		(at 97.79 99.06 0)
 		(fields_autoplaced yes)
 		(effects
@@ -964,7 +942,7 @@
 		)
 		(uuid "8f42a09d-1522-41df-8ab5-b36fc1b0359e")
 	)
-	(label "II2C_SCL"
+	(label "GPIO17"
 		(at 97.79 93.98 0)
 		(fields_autoplaced yes)
 		(effects
@@ -997,29 +975,7 @@
 		)
 		(uuid "bf8a03ef-3227-4c31-80c6-a1b66db835f0")
 	)
-	(label "VDD3V3"
-		(at 157.48 81.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dd9f82c0-6851-4c0b-86b7-bfe38550d3ae")
-	)
-	(label "VDD3V3"
-		(at 100.33 116.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ea622e92-c90e-44e1-b0ee-e4f16340e402")
-	)
-	(label "U0RXD"
+	(label "GPIO44{slash}CLK_OUT2"
 		(at 97.79 88.9 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1078,6 +1034,30 @@
 		)
 		(uuid "4cfdd92e-78d9-4ded-9c3f-2fc05bcc5f6a")
 	)
+	(hierarchical_label "BI"
+		(shape input)
+		(at 166.37 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7c941487-6d78-4ce3-926d-8459d3acea74")
+	)
+	(hierarchical_label "CLKI"
+		(shape input)
+		(at 97.79 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8eafd0d2-908c-4dfd-b67d-ec0ae777182f")
+	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x12")
 		(at 139.7 96.52 180)
@@ -1104,7 +1084,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical"
 			(at 139.7 96.52 0)
 			(effects
 				(font
@@ -1269,7 +1249,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical"
 			(at 119.38 96.52 0)
 			(effects
 				(font
