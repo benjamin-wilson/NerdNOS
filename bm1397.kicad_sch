@@ -4471,7 +4471,7 @@
 		)
 		(uuid "6820eb28-3a22-4fe4-a21b-14187324c428")
 	)
-	(label "0V8"
+	(label "0V8_O"
 		(at 153.67 119.38 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4493,7 +4493,7 @@
 		)
 		(uuid "7fecb17b-81c1-4631-bbc7-2fa2619a6912")
 	)
-	(label "1V8"
+	(label "1V8_O"
 		(at 106.68 121.92 0)
 		(fields_autoplaced yes)
 		(effects
