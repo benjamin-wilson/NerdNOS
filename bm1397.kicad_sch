@@ -2576,6 +2576,12 @@
 		(uuid "af3d66d7-562b-457c-8d8b-69c9f869be51")
 	)
 	(junction
+		(at 95.25 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd434cd7-d73c-4484-a0e0-de18a147b747")
+	)
+	(junction
 		(at 264.16 34.29)
 		(diameter 0.9144)
 		(color 0 0 0 0)
@@ -2739,7 +2745,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 96.52) (xy 113.03 96.52)
+			(xy 76.2 96.52) (xy 95.25 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3049,16 +3055,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 107.95) (xy 232.41 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50c0ae1d-5c65-4a93-9662-f68421901a6b")
-	)
-	(wire
-		(pts
 			(xy 151.13 119.38) (xy 167.64 119.38)
 		)
 		(stroke
@@ -3226,16 +3222,6 @@
 			(type default)
 		)
 		(uuid "694b1f69-1c84-48dc-9cf7-3361acbcf6d6")
-	)
-	(wire
-		(pts
-			(xy 106.68 101.6) (xy 113.03 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6de73e0b-ca60-48d6-b753-f5d3ffa96e18")
 	)
 	(wire
 		(pts
@@ -3639,6 +3625,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 101.6) (xy 113.03 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3dcb570-c795-4a69-89f9-183cd5b4a146")
+	)
+	(wire
+		(pts
 			(xy 229.87 57.15) (xy 236.22 57.15)
 		)
 		(stroke
@@ -3646,6 +3642,16 @@
 			(type solid)
 		)
 		(uuid "a4eff5f2-234e-41d2-9e00-68b81f7ca2fb")
+	)
+	(wire
+		(pts
+			(xy 95.25 96.52) (xy 113.03 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8098b69-8adf-47bf-a231-255c7357399e")
 	)
 	(wire
 		(pts
@@ -3679,6 +3685,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 101.6) (xy 95.25 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aec8d911-c853-49fd-aee5-f34bb2d505e1")
+	)
+	(wire
+		(pts
 			(xy 102.87 121.92) (xy 113.03 121.92)
 		)
 		(stroke
@@ -3686,6 +3702,16 @@
 			(type default)
 		)
 		(uuid "b0e13a11-c0d8-4d23-a907-80c0fcdc3db5")
+	)
+	(wire
+		(pts
+			(xy 95.25 101.6) (xy 95.25 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b33782fd-daca-4e00-80c0-98fe42c24cc0")
 	)
 	(wire
 		(pts
@@ -4294,17 +4320,6 @@
 		)
 		(uuid "9c9f0152-8820-48d0-912f-cb4ccc7cdc64")
 	)
-	(label "BM_BI"
-		(at 106.68 101.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9cd56038-8270-434d-b7ac-f0227566d952")
-	)
 	(label "1V8"
 		(at 189.23 96.52 0)
 		(fields_autoplaced yes)
@@ -4485,18 +4500,6 @@
 			(justify right)
 		)
 		(uuid "851b1f45-1217-4bf2-ac73-ad857b00bd62")
-	)
-	(hierarchical_label "BI"
-		(shape input)
-		(at 228.6 107.95 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a5f2de3e-ebbe-4f5d-9ea0-8332226ccbf2")
 	)
 	(hierarchical_label "VDD"
 		(shape input)
@@ -7286,6 +7289,74 @@
 			(project "NerdNOS"
 				(path "/d95c6d04-3717-413a-8b9f-685b8757ddd5/2975618e-ff95-4651-94c9-bab75a02691e"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 100.33 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e154ed31-a922-4a2e-a682-3f4ee32041a5")
+		(property "Reference" "R2"
+			(at 100.33 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 100.33 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 100.584 100.584 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 100.33 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0d6ed757-b9e1-4dfb-9cc4-64076bfe2d3f")
+		)
+		(pin "1"
+			(uuid "54f2c365-2515-42be-98d8-af3804560a08")
+		)
+		(instances
+			(project "NerdNOS"
+				(path "/d95c6d04-3717-413a-8b9f-685b8757ddd5/2975618e-ff95-4651-94c9-bab75a02691e"
+					(reference "R2")
 					(unit 1)
 				)
 			)

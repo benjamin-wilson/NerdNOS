@@ -1034,18 +1034,6 @@
 		)
 		(uuid "4cfdd92e-78d9-4ded-9c3f-2fc05bcc5f6a")
 	)
-	(hierarchical_label "BI"
-		(shape input)
-		(at 166.37 91.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7c941487-6d78-4ce3-926d-8459d3acea74")
-	)
 	(hierarchical_label "CLKI"
 		(shape input)
 		(at 97.79 88.9 180)
