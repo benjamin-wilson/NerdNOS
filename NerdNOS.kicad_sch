@@ -996,16 +996,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 76.2) (xy 85.09 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1785f07a-c989-4b25-ad6c-8f12c31e587f")
-	)
-	(wire
-		(pts
 			(xy 238.76 119.38) (xy 245.11 119.38)
 		)
 		(stroke
@@ -1156,16 +1146,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 121.92) (xy 99.06 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ee9eb10-e4d4-42e0-bded-5aff50ef3a79")
-	)
-	(wire
-		(pts
 			(xy 172.72 63.5) (xy 76.2 63.5)
 		)
 		(stroke
@@ -1183,16 +1163,6 @@
 			(type default)
 		)
 		(uuid "89493dcf-a812-4dfa-83e7-ae7b21895d16")
-	)
-	(wire
-		(pts
-			(xy 85.09 76.2) (xy 85.09 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e7a781d-ec4d-4b4f-a8d2-d60d5ff65627")
 	)
 	(wire
 		(pts
@@ -1793,12 +1763,12 @@
 			(uuid "54bad17d-3e11-463b-9123-dae83645b086")
 		)
 		(pin "3V3" input
-			(at 99.06 121.92 180)
+			(at 125.73 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "30c4a35a-b566-4ce8-a2c4-0db4bd887e45")
 		)
@@ -1899,16 +1869,6 @@
 				(justify right)
 			)
 			(uuid "6c5e623f-8aca-440c-89b0-eeb80bc7b073")
-		)
-		(pin "3V3" output
-			(at 152.4 76.2 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "522a92c3-2daa-4060-a007-8a6dcaf1d66e")
 		)
 		(pin "1V4" input
 			(at 152.4 78.74 180)
