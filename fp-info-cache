@@ -1,4 +1,4 @@
-23181502490917301
+23191776649030358
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -94850,6 +94850,27 @@ FTSH-105-01-F-DV-K
 10
 10
 bitaxe
+IND_IHLP-3232DZ_VIS
+
+IHLP3232DZER2R2M11 
+0
+2
+2
+bitaxe
+IND_IHLP-3232DZ_VIS-L
+
+IHLP3232DZER2R2M11 
+0
+2
+2
+bitaxe
+IND_IHLP-3232DZ_VIS-M
+
+IHLP3232DZER2R2M11 
+0
+2
+2
+bitaxe
 IND_SPM6530_TDK
 
 SPM6530T-2R2M 
@@ -94898,6 +94919,27 @@ SN74AXC1T45
 0
 6
 6
+bitaxe
+SO8_DCU_TEX
+
+TXU0202DCUR 
+0
+8
+8
+bitaxe
+SO8_DCU_TEX-L
+
+TXU0202DCUR 
+0
+8
+8
+bitaxe
+SO8_DCU_TEX-M
+
+TXU0202DCUR 
+0
+8
+8
 bitaxe
 ST7789-176x320
 

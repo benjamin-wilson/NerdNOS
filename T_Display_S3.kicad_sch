@@ -548,10 +548,6 @@
 		(uuid "363fcc10-6cd0-4830-8c1b-b8b89b4df67a")
 	)
 	(no_connect
-		(at 144.78 81.28)
-		(uuid "69b4945f-abd9-4bbf-a591-95d56cb816b0")
-	)
-	(no_connect
 		(at 147.32 101.6)
 		(uuid "781f5bad-423f-4cea-baa2-6b2b3ea4189e")
 	)
@@ -632,6 +628,16 @@
 			(type default)
 		)
 		(uuid "356f62fc-5a30-4489-9e20-4f06e2b9dd3e")
+	)
+	(wire
+		(pts
+			(xy 166.37 81.28) (xy 144.78 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38625c48-e351-4760-afce-654e83e9b5d1")
 	)
 	(wire
 		(pts
@@ -998,18 +1004,6 @@
 		)
 		(uuid "0ab0eacd-567c-4d08-a6f6-ea2f565db9fd")
 	)
-	(hierarchical_label "TX"
-		(shape input)
-		(at 166.37 86.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "14706046-b16a-4ce7-a6e9-02b23f6bc9bc")
-	)
 	(hierarchical_label "VBUS"
 		(shape input)
 		(at 152.4 109.22 0)
@@ -1024,6 +1018,30 @@
 	)
 	(hierarchical_label "RX"
 		(shape input)
+		(at 166.37 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "33c478f4-7829-47b9-bd52-c2d22c6e6d0d")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 166.37 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5862ccee-11ea-4b17-a148-07f049880792")
+	)
+	(hierarchical_label "TX"
+		(shape input)
 		(at 166.37 83.82 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1032,7 +1050,7 @@
 			)
 			(justify left)
 		)
-		(uuid "4cfdd92e-78d9-4ded-9c3f-2fc05bcc5f6a")
+		(uuid "731390b8-ce4c-4b34-a1d1-b52c9110904a")
 	)
 	(hierarchical_label "CLKI"
 		(shape input)
