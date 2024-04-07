@@ -4207,7 +4207,7 @@
 		)
 		(uuid "0f8ae316-eb7d-4c80-8341-d12618f4b6e6")
 	)
-	(label "0V8"
+	(label "0V8_O"
 		(at 106.68 116.84 0)
 		(fields_autoplaced yes)
 		(effects
