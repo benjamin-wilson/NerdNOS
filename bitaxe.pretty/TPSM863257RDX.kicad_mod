@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "PTPSM863257RDXR ")
 	(property "Reference" "U5"
-		(at 3.050001 1.465 180)
+		(at -1.37 -3.22 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "aa1d4ec1-809b-4793-b66b-a3a4061d9a41")
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "TPSM863257RDX"
-		(at 0 0 0)
+		(at 6.24 -6.71 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "5c3db24d-6669-4c95-9ee7-39c7e6480791")
@@ -29,7 +29,7 @@
 		)
 	)
 	(property "Footprint" "bitaxe:TPSM863257RDX"
-		(at 0 0 0)
+		(at 6.24 -6.71 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -41,7 +41,7 @@
 		)
 	)
 	(property "Datasheet" "PTPSM863257RDXR"
-		(at 0 0 0)
+		(at 6.24 -6.71 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -274,8 +274,8 @@
 		(uuid "bcaf4a2b-474b-4beb-831a-16e2fb66907b")
 	)
 	(fp_circle
-		(center -2.4 -1.25)
-		(end -2.274999 -1.25)
+		(center -2.45 -2.37)
+		(end -2.324999 -2.37)
 		(stroke
 			(width 0.25)
 			(type solid)
@@ -283,45 +283,6 @@
 		(fill none)
 		(layer "F.SilkS")
 		(uuid "bd25d069-2c02-439a-be11-e33c5169c458")
-	)
-	(fp_poly
-		(pts
-			(xy -0.439999 -2.250001) (xy -0.339999 -2.150001) (xy -0.339999 -1.649999) (xy -0.439999 -1.549999)
-			(xy -0.559999 -1.549999) (xy -0.660001 -1.649999) (xy -0.660001 -2.150001) (xy -0.559999 -2.250001)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Mask")
-		(uuid "c421740e-fcd0-4019-97f2-00e55d6a8161")
-	)
-	(fp_poly
-		(pts
-			(xy -0.16 -2.150001) (xy -0.06 -2.250001) (xy 0.06 -2.250001) (xy 0.16 -2.150001) (xy 0.16 -1.649999)
-			(xy 0.06 -1.549999) (xy -0.06 -1.549999) (xy -0.16 -1.649999)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Mask")
-		(uuid "b083e012-c50f-41ab-958a-d04ae1f473ce")
-	)
-	(fp_poly
-		(pts
-			(xy 0.559999 -1.549999) (xy 0.439999 -1.549999) (xy 0.339999 -1.649999) (xy 0.339999 -2.150001) (xy 0.439999 -2.250001)
-			(xy 0.559999 -2.250001) (xy 0.660001 -2.150001) (xy 0.660001 -1.649999)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Mask")
-		(uuid "fdb33ad4-46e3-4aff-a5ad-901618a88dd0")
 	)
 	(fp_poly
 		(pts
@@ -395,6 +356,17 @@
 		(layer "F.Mask")
 		(uuid "d4b3d7aa-6521-491d-8def-04f92f64f322")
 	)
+	(fp_rect
+		(start -2.26 -2.55)
+		(end 2.28 2.38)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "8cb750fe-03b4-4209-bf5f-bab490625115")
+	)
 	(fp_line
 		(start -1.649999 -2.000001)
 		(end 1.649999 -2.000001)
@@ -436,7 +408,7 @@
 		(uuid "f2c0888c-f003-42e2-b23e-1b017d8ef40e")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 6.24 -6.71 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "711c2e44-dd71-4ba5-a26b-d001d021ef2b")
@@ -504,19 +476,30 @@
 	(pad "5" smd rect
 		(at 0.499999 -1.899999)
 		(size 0.22 0.599999)
-		(layers "F.Cu" "F.Paste")
+		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "c5f34e69-6915-4f0a-920c-179cd06c599a")
 	)
 	(pad "6" smd rect
 		(at 0 -1.899999)
 		(size 0.22 0.599999)
-		(layers "F.Cu" "F.Paste")
+		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "51994698-203b-4971-919a-b34d5c8528db")
 	)
 	(pad "7" smd rect
 		(at -0.499999 -1.899999)
 		(size 0.22 0.599999)
-		(layers "F.Cu" "F.Paste")
+		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "4593dbfe-4a9f-410c-ae30-787fc8956cf2")
+	)
+	(model "${KIPRJMOD}/3d/TPSM863257RDXR--3DModel-STEP-510211.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
 	)
 )

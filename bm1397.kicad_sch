@@ -6398,7 +6398,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SO8_DCU_TEX"
+		(property "Footprint" "bitaxe:SO8_DCU_TEX"
 			(at 228.6 116.84 0)
 			(effects
 				(font
