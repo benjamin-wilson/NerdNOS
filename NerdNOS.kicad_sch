@@ -582,7 +582,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at 15.24 15.24 180)
 					(length 5.08)
 					(name "VBUS"
@@ -1282,7 +1282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB 2.0-only Type-C Receptacle connector"
 			(at 209.55 101.6 0)
 			(effects
 				(font
@@ -1731,7 +1731,7 @@
 			)
 			(uuid "6c5e623f-8aca-440c-89b0-eeb80bc7b073")
 		)
-		(pin "1V4" input
+		(pin "1V4" output
 			(at 130.81 78.74 180)
 			(effects
 				(font
@@ -1799,7 +1799,7 @@
 			)
 			(uuid "5676afd1-b6a3-4b61-9526-26a1bcd1731c")
 		)
-		(pin "TX" input
+		(pin "TX" output
 			(at 130.81 105.41 180)
 			(effects
 				(font
@@ -1809,7 +1809,7 @@
 			)
 			(uuid "d5df977e-d595-4219-9264-b9be7a8c6ae8")
 		)
-		(pin "RST" input
+		(pin "RST" output
 			(at 130.81 109.22 180)
 			(effects
 				(font
@@ -1819,7 +1819,7 @@
 			)
 			(uuid "0687a46c-6545-4053-bc8c-9465617374df")
 		)
-		(pin "3V3" input
+		(pin "3V3" output
 			(at 130.81 97.79 180)
 			(effects
 				(font

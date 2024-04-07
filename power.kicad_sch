@@ -442,24 +442,6 @@
 					)
 				)
 				(pin power_in line
-					(at 12.7 6.35 180)
-					(length 2.54)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at 12.7 -8.89 180)
 					(length 2.54)
 					(name "PGND"
@@ -542,6 +524,24 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(pin power_out line
+					(at 12.7 6.35 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -1116,7 +1116,7 @@
 		(uuid "fd31226f-68e0-4c5c-9abd-b6374dc91ccd")
 	)
 	(hierarchical_label "1V4"
-		(shape input)
+		(shape output)
 		(at 194.31 100.33 0)
 		(fields_autoplaced yes)
 		(effects

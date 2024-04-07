@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "PTPSM863257RDXR ")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at -0.19 -3.27 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "69f9a7b5-9b56-4d21-8c7f-2d1cfd6578e7")
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "TPSM863257RDX"
-		(at 0 0 0)
+		(at 0.05 4.36 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "03cb6908-3531-4408-bbfc-e0001c367b90")
@@ -65,18 +65,6 @@
 		)
 	)
 	(attr through_hole)
-	(fp_poly
-		(pts
-			(xy -0.2 -0.675) (xy 0.2 -0.675) (xy 0.2 -1.295001) (xy -0.2 -1.295001)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Cu")
-		(uuid "257087ee-6459-49ad-a02d-7add19acfaf9")
-	)
 	(fp_poly
 		(pts
 			(xy -1.899999 -1.799999) (xy -1.799999 -1.899999) (xy -0.924999 -1.900001) (xy -0.825 -1.799999)
@@ -326,45 +314,6 @@
 	)
 	(fp_poly
 		(pts
-			(xy -0.439999 -2.250001) (xy -0.339999 -2.150001) (xy -0.339999 -1.649999) (xy -0.439999 -1.549999)
-			(xy -0.559999 -1.549999) (xy -0.660001 -1.649999) (xy -0.660001 -2.150001) (xy -0.559999 -2.250001)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Mask")
-		(uuid "8fc4aa8c-4dd8-49e0-8ec8-fb5e73d0a6d5")
-	)
-	(fp_poly
-		(pts
-			(xy -0.16 -2.150001) (xy -0.06 -2.250001) (xy 0.06 -2.250001) (xy 0.16 -2.150001) (xy 0.16 -1.649999)
-			(xy 0.06 -1.549999) (xy -0.06 -1.549999) (xy -0.16 -1.649999)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Mask")
-		(uuid "354b766f-cc0a-4771-a5f6-1fc21fc2b4b0")
-	)
-	(fp_poly
-		(pts
-			(xy 0.559999 -1.549999) (xy 0.439999 -1.549999) (xy 0.339999 -1.649999) (xy 0.339999 -2.150001) (xy 0.439999 -2.250001)
-			(xy 0.559999 -2.250001) (xy 0.660001 -2.150001) (xy 0.660001 -1.649999)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Mask")
-		(uuid "b059589c-4647-48e2-bc50-f7306f358cff")
-	)
-	(fp_poly
-		(pts
 			(xy -0.924999 -1.849999) (xy -0.875 -1.799999) (xy -0.875 -1.592999) (xy -0.860001 -1.557) (xy -0.512999 -1.21)
 			(xy -0.476999 -1.194999) (xy -0.389999 -1.194999) (xy -0.339997 -1.144999) (xy -0.339999 -0.825)
 			(xy -0.389999 -0.775) (xy -1.4 -0.775) (xy -1.45 -0.825) (xy -1.5 -0.875) (xy -1.799999 -0.875) (xy -1.849999 -0.924999)
@@ -435,6 +384,17 @@
 		(layer "F.Mask")
 		(uuid "fdb004b7-6869-4897-8c39-f716eebd9ba9")
 	)
+	(fp_rect
+		(start -2.3 -2.57)
+		(end 2.33 2.41)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "cde03f71-8b2d-426d-a210-8228b6b1e980")
+	)
 	(fp_line
 		(start -1.649999 -2.000001)
 		(end 1.649999 -2.000001)
@@ -475,20 +435,8 @@
 		(layer "F.Fab")
 		(uuid "0f3183e0-ddc8-4ba1-afa7-1ac72c367794")
 	)
-	(fp_text user "Designator856"
-		(at -2.3876 -3.7084 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "d2a113d3-f8d0-4cdc-93de-2f3cbedd4a5a")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0.05 4.36 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "e32b05f9-6403-4251-b4d6-6243516402b0")
@@ -526,115 +474,30 @@
 	(pad "5" smd rect
 		(at 0.499999 -1.899999)
 		(size 0.22 0.599999)
-		(layers "F.Cu" "F.Paste")
+		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "fc38d974-aac8-419d-b130-1e4bfae47e44")
 	)
 	(pad "6" smd rect
 		(at 0 -1.899999)
 		(size 0.22 0.599999)
-		(layers "F.Cu" "F.Paste")
+		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "1e8aedf4-a174-4e67-a72f-d7bacc5da18d")
 	)
 	(pad "7" smd rect
 		(at -0.499999 -1.899999)
 		(size 0.22 0.599999)
-		(layers "F.Cu" "F.Paste")
+		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "7e9ae51f-33bc-4616-91b8-79d4e4f0fdb2")
 	)
-	(pad "8" thru_hole circle
-		(at -1.649999 0.165001)
-		(size 0.499999 0.499999)
-		(drill 0.2032)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "50d2236a-b8c2-434f-8ead-c46442cd9ae7")
-	)
-	(pad "9" thru_hole circle
-		(at -1.649999 0.665)
-		(size 0.499999 0.499999)
-		(drill 0.2032)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "417667bf-66f5-4739-84c5-de1ad897c1b4")
-	)
-	(pad "10" thru_hole circle
-		(at -1.649999 1.164999)
-		(size 0.499999 0.499999)
-		(drill 0.2032)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "4eade2ca-a23c-4b38-9ba3-1f0475a3632e")
-	)
-	(pad "11" thru_hole circle
-		(at 1.649999 0.165001)
-		(size 0.499999 0.499999)
-		(drill 0.2032)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "f7a92616-826f-4b03-bcae-01adce4a8129")
-	)
-	(pad "12" thru_hole circle
-		(at 1.649999 0.665)
-		(size 0.499999 0.499999)
-		(drill 0.2032)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "02f6d691-4ed7-466f-9f05-e3bc0460bc98")
-	)
-	(pad "13" thru_hole circle
-		(at 1.649999 1.164999)
-		(size 0.499999 0.499999)
-		(drill 0.2032)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "21a5f97e-95ff-4bcb-a100-e9a97a86bc0d")
-	)
-	(pad "14" thru_hole circle
-		(at -0.650001 0.165001)
-		(size 0.499999 0.499999)
-		(drill 0.2032)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "6b277ff4-d84b-4914-ae10-97862cf27e39")
-	)
-	(pad "15" thru_hole circle
-		(at -0.650001 0.665)
-		(size 0.499999 0.499999)
-		(drill 0.2032)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "631f97c6-08bb-4766-83c1-0c8821f7dea8")
-	)
-	(pad "16" thru_hole circle
-		(at -0.650001 1.164999)
-		(size 0.499999 0.499999)
-		(drill 0.2032)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "e2ea194c-ee6f-4e83-ab91-b58619b444c4")
-	)
-	(pad "17" thru_hole circle
-		(at 0.650001 0.165001)
-		(size 0.499999 0.499999)
-		(drill 0.2032)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "ed38b00b-0766-45b4-b295-cd68607b3da3")
-	)
-	(pad "18" thru_hole circle
-		(at 0.650001 0.665)
-		(size 0.499999 0.499999)
-		(drill 0.2032)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "18b23a6c-7bc6-41e9-8d07-fcc64f87e058")
-	)
-	(pad "19" thru_hole circle
-		(at 0.650001 1.164999)
-		(size 0.499999 0.499999)
-		(drill 0.2032)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "bded6f1b-8c69-48c9-be62-2ccc67053e26")
+	(model "${KIPRJMOD}/3d/TPSM863257RDXR--3DModel-STEP-510211.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
 	)
 )

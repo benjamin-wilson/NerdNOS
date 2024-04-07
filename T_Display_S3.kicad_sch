@@ -834,7 +834,7 @@
 		(uuid "33c478f4-7829-47b9-bd52-c2d22c6e6d0d")
 	)
 	(hierarchical_label "3V3"
-		(shape input)
+		(shape output)
 		(at 166.37 81.28 0)
 		(fields_autoplaced yes)
 		(effects

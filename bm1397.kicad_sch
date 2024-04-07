@@ -146,164 +146,6 @@
 				)
 			)
 		)
-		(symbol "Device:C_Polarized"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Polarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Polarized_0_1"
-				(rectangle
-					(start -2.286 0.508)
-					(end 2.286 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.794) (xy -1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.286 -0.508)
-					(end -2.286 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "C_Polarized_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R_US"
 			(pin_numbers hide)
 			(pin_names
@@ -1041,159 +883,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "MCP1824_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -7.62 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MCP1824_1"
-				(at 5.08 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/22070a.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MCP1824_1_0_1"
-				(rectangle
-					(start -7.62 3.81)
-					(end 7.62 -6.35)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "MCP1824_1_1_0"
-				(pin bidirectional line
-					(at -10.16 1.27 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 -1.27 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 -1.27 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 -3.81 0)
-					(length 2.54)
-					(name "PG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 1.27 180)
-					(length 2.54)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2021,7 +1710,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_out line
 					(at 10.16 1.27 180)
 					(length 2.54)
 					(name "VOUT"
@@ -2350,7 +2039,7 @@
 				)
 			)
 			(symbol "oscillator_1_0"
-				(pin bidirectional line
+				(pin input line
 					(at -7.62 1.27 0)
 					(length 2.54)
 					(name "EN"
@@ -2404,7 +2093,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at 7.62 -1.27 180)
 					(length 2.54)
 					(name "VIN"
@@ -2528,7 +2217,7 @@
 		(uuid "1ab206f8-98cc-46cd-bf72-bea4648e9c92")
 	)
 	(junction
-		(at 260.35 47.625)
+		(at 260.35 48.26)
 		(diameter 0.9144)
 		(color 0 0 0 0)
 		(uuid "206becaa-5ae1-417a-a93c-9a1f2b1c2a6d")
@@ -2546,7 +2235,7 @@
 		(uuid "2314b00a-f949-476c-b378-7e547855d0a5")
 	)
 	(junction
-		(at 236.855 34.29)
+		(at 237.49 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c9c429b-618b-4bb6-bcbc-c23e941c1489")
@@ -2612,7 +2301,7 @@
 		(uuid "923cb679-38fb-439a-9697-1d1930946796")
 	)
 	(junction
-		(at 247.65 47.625)
+		(at 247.65 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "950968cd-9394-47aa-9f03-fc32a8001e93")
@@ -3027,7 +2716,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 47.625) (xy 247.65 47.625)
+			(xy 229.87 48.26) (xy 247.65 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3047,7 +2736,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 44.45) (xy 264.16 47.625)
+			(xy 264.16 44.45) (xy 264.16 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3167,7 +2856,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 44.45) (xy 229.87 47.625)
+			(xy 229.87 44.45) (xy 229.87 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3247,7 +2936,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.855 36.83) (xy 236.855 34.29)
+			(xy 237.49 36.83) (xy 237.49 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3277,7 +2966,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 34.29) (xy 236.855 34.29)
+			(xy 229.87 34.29) (xy 237.49 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3577,7 +3266,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 47.625) (xy 260.35 47.625)
+			(xy 264.16 48.26) (xy 260.35 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3617,7 +3306,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.855 34.29) (xy 238.76 34.29)
+			(xy 237.49 34.29) (xy 238.76 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3717,7 +3406,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 36.83) (xy 260.35 47.625)
+			(xy 260.35 36.83) (xy 260.35 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3947,7 +3636,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 47.625) (xy 260.35 47.625)
+			(xy 247.65 48.26) (xy 260.35 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4004,16 +3693,6 @@
 			(type default)
 		)
 		(uuid "c8da7c7c-9a4c-4c72-9efc-98a8c6d8fb1f")
-	)
-	(wire
-		(pts
-			(xy 247.65 47.625) (xy 247.65 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5f76905-c38f-43be-b2e6-57b7d4a2a20d")
 	)
 	(wire
 		(pts
@@ -4077,7 +3756,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.855 36.83) (xy 238.76 36.83)
+			(xy 237.49 36.83) (xy 238.76 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4427,17 +4106,6 @@
 			(justify left bottom)
 		)
 		(uuid "f73af828-2f49-4ff4-a538-c15986ba6096")
-	)
-	(label "RST_G"
-		(at 35.56 118.11 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f84d6f09-676f-4ce0-9bed-ba3310d27e29")
 	)
 	(hierarchical_label "TX"
 		(shape input)
@@ -5435,7 +5103,7 @@
 		(dnp no)
 		(uuid "5952d26d-ed67-430d-ae4d-093881dd7274")
 		(property "Reference" "IC1"
-			(at 115.57 128.905 0)
+			(at 115.57 80.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5444,7 +5112,7 @@
 			)
 		)
 		(property "Value" "BM1397_mode1"
-			(at 136.525 128.905 0)
+			(at 137.922 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6165,7 +5833,6 @@
 		)
 	)
 	(symbol
-		(lib_name "MCP1824_1")
 		(lib_id "bitaxe:MCP1824")
 		(at 248.92 68.58 0)
 		(unit 1)
@@ -6967,7 +6634,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
+		(lib_id "Device:C")
 		(at 153.67 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6977,7 +6644,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce525a21-e919-49fe-887a-3a1ec0753af0")
 		(property "Reference" "C13"
-			(at 156.845 52.4509 0)
+			(at 157.48 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6986,7 +6653,7 @@
 			)
 		)
 		(property "Value" "330uF"
-			(at 156.845 54.9909 0)
+			(at 157.48 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7012,7 +6679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 153.67 54.61 0)
 			(effects
 				(font
@@ -7021,7 +6688,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "718-1028-1-ND"
+		(property "DK" "490-GRM32ER60G337ME05KCT-ND"
 			(at 153.67 54.61 0)
 			(effects
 				(font
@@ -7030,7 +6697,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "490-GRM32ER60G337ME05KTR-ND"
+		(property "PARTNO" "GRM32ER60G337ME05K"
 			(at 153.67 54.61 0)
 			(effects
 				(font
