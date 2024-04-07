@@ -4295,7 +4295,7 @@
 		)
 		(uuid "71d29c64-d4d1-472b-9946-eb2421482dde")
 	)
-	(label "0V8_O"
+	(label "0V8_O2"
 		(at 153.67 119.38 0)
 		(fields_autoplaced yes)
 		(effects
