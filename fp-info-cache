@@ -1,4 +1,4 @@
-23213898501836271
+23215604635232544
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -94772,6 +94772,13 @@ BM1366
 0
 30
 30
+bitaxe
+BM1368
+
+
+0
+32
+32
 bitaxe
 BM1397
 32-SON (DFN), 0.48 mm pitch for BM1387
