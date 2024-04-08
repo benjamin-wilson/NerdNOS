@@ -6632,7 +6632,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "311-3342-1-ND"
+		(property "Value" "0.1uF"
 			(at 229.87 73.66 0)
 			(effects
 				(font
@@ -6669,7 +6669,16 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "1292-1639-1-ND"
+		(property "DK" "478-KGM05AR71C104KHCT-ND"
+			(at 229.87 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "KGM05AR71C104KH"
 			(at 229.87 73.66 0)
 			(effects
 				(font
@@ -6857,7 +6866,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "311-3342-1-ND"
+		(property "Value" "0.1uF"
 			(at 62.23 133.35 0)
 			(effects
 				(font
@@ -7693,6 +7702,24 @@
 				(hide yes)
 			)
 		)
+		(property "PARTNO" "KGM05AR71C104KH"
+			(at 250.19 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "478-KGM05AR71C104KHCT-ND"
+			(at 250.19 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "32a4cc5c-cc4f-465b-a528-668f7a4fe625")
 		)
@@ -7957,6 +7984,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 204.47 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "KGM05AR71C104KH"
+			(at 204.47 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "478-KGM05AR71C104KHCT-ND"
 			(at 204.47 124.46 0)
 			(effects
 				(font

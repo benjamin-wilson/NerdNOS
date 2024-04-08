@@ -1167,7 +1167,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 181.3052 120.65 0)
 			(effects
 				(font
@@ -1195,6 +1195,15 @@
 			)
 		)
 		(property "PARTNO" "GRM21BR60J226ME39L"
+			(at 180.34 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "490-7611-2-ND"
 			(at 180.34 116.84 0)
 			(effects
 				(font
@@ -1400,7 +1409,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 96.2152 119.38 0)
 			(effects
 				(font
@@ -1427,7 +1436,16 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "08053C104KAT2A"
+		(property "PARTNO" "KGM05AR71C104KH"
+			(at 95.25 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "478-KGM05AR71C104KHCT-ND"
 			(at 95.25 115.57 0)
 			(effects
 				(font
@@ -1818,7 +1836,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 168.656 109.474 90)
 			(effects
 				(font
@@ -1845,7 +1863,16 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "ERJ-6ENF4022V"
+		(property "PARTNO" "RC0603FR-0740K2L "
+			(at 167.64 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "311-40.2KHRTR-ND"
 			(at 167.64 109.22 0)
 			(effects
 				(font
