@@ -573,10 +573,6 @@
 		(uuid "5196a7a7-c301-4895-be02-607dd5b5a49e")
 	)
 	(no_connect
-		(at 144.78 91.44)
-		(uuid "6f62a455-fe00-4703-95d9-ed58765141e7")
-	)
-	(no_connect
 		(at 144.78 101.6)
 		(uuid "781f5bad-423f-4cea-baa2-6b2b3ea4189e")
 	)
@@ -716,6 +712,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 91.44) (xy 166.37 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ee3c3e9-69c2-40e8-85bf-1f167072b739")
+	)
+	(wire
+		(pts
 			(xy 144.78 83.82) (xy 166.37 83.82)
 		)
 		(stroke
@@ -797,6 +803,17 @@
 		)
 		(uuid "829d8de8-b527-4e15-9a69-9dbfbafcd14a")
 	)
+	(label "GPIO10"
+		(at 157.48 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e42170c4-f961-45e0-b5e0-b125b6a0ace2")
+	)
 	(hierarchical_label "RST"
 		(shape input)
 		(at 166.37 88.9 0)
@@ -808,6 +825,18 @@
 			(justify left)
 		)
 		(uuid "0ab0eacd-567c-4d08-a6f6-ea2f565db9fd")
+	)
+	(hierarchical_label "TMP"
+		(shape input)
+		(at 166.37 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "158fd8ee-4589-4fc5-8253-6d9d0969353e")
 	)
 	(hierarchical_label "VBUS"
 		(shape input)

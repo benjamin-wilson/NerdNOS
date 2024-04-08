@@ -947,6 +947,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 113.03) (xy 130.81 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bf04186-a1f7-498e-bbc1-36e8c1031873")
+	)
+	(wire
+		(pts
 			(xy 189.23 93.98) (xy 194.31 93.98)
 		)
 		(stroke
@@ -1595,7 +1605,7 @@
 	)
 	(sheet
 		(at 101.6 93.98)
-		(size 19.05 19.05)
+		(size 19.05 22.86)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1615,7 +1625,7 @@
 			)
 		)
 		(property "Sheetfile" "bm1397.kicad_sch"
-			(at 101.6 114.1226 0)
+			(at 101.6 117.4246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1682,6 +1692,16 @@
 				(justify left)
 			)
 			(uuid "3cfa0232-1ad9-45d5-a84c-02eaaeba6826")
+		)
+		(pin "TMP" output
+			(at 120.65 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4f836cc5-ef6a-4892-baf7-bf286be3efb4")
 		)
 		(instances
 			(project "NerdNOS"
@@ -1751,7 +1771,7 @@
 	)
 	(sheet
 		(at 130.81 93.98)
-		(size 19.05 19.05)
+		(size 19.05 22.86)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1771,7 +1791,7 @@
 			)
 		)
 		(property "Sheetfile" "T_Display_S3.kicad_sch"
-			(at 130.81 114.1226 0)
+			(at 130.81 117.4246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1828,6 +1848,16 @@
 				(justify left)
 			)
 			(uuid "ac0cf460-abf3-4af2-b3d2-b1a523849a47")
+		)
+		(pin "TMP" input
+			(at 130.81 113.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d71648b2-38e0-43b7-8b4a-7aff562b8270")
 		)
 		(instances
 			(project "NerdNOS"
