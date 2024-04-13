@@ -1405,7 +1405,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C7"
-			(at 0 1.1 360)
+			(at 0 1.1 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "f57c3e55-b0ac-41b6-aef9-4b75b7cbc097")
@@ -1417,7 +1417,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "915ddae3-7dd4-4d98-9c0b-ee244fea7f28")
 			(effects
@@ -1595,7 +1595,7 @@
 			(uuid "4bfcfa4a-8a4c-4599-a90f-ad26c8a88d11")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "97758ca9-b2a9-4b9c-89f3-0230164a726d")
 			(effects
@@ -1642,7 +1642,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C23"
-			(at -2.3 0.1 270)
+			(at -2.3 0.1 -90)
 			(layer "F.SilkS")
 			(uuid "b9bb813b-26f1-4f60-be53-008965d01c1b")
 			(effects
@@ -1653,7 +1653,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.16 270)
+			(at 0 1.16 -90)
 			(layer "F.Fab")
 			(uuid "6262cc1f-14fa-4714-8d14-95153f6dcc48")
 			(effects
@@ -1831,7 +1831,7 @@
 			(uuid "c9dd113d-cece-4997-94de-079e7c900b2c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "1e4f3f83-1e9d-4d8f-a81c-d2a8e089d33a")
 			(effects
@@ -2584,7 +2584,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "e7634a7c-c4f1-4528-bb0d-06da2c73d4cc")
 			(effects
@@ -2749,7 +2749,7 @@
 			(uuid "9d15855f-fe02-4b2f-bad8-1e8c2c2f01bc")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "01898273-7e5c-4a83-88ad-9c9332c0b079")
 			(effects
@@ -5878,6 +5878,117 @@
 			)
 		)
 	)
+	(footprint "Fiducial:Fiducial_1mm_Mask2mm"
+		(layer "F.Cu")
+		(uuid "874e24b1-221e-41d9-a4a3-dc4d766652ec")
+		(at 139.1 77.1)
+		(descr "Circular Fiducial, 1mm bare copper, 2mm soldermask opening (Level A)")
+		(tags "fiducial")
+		(property "Reference" "FID2"
+			(at 0 -2 0)
+			(layer "F.SilkS")
+			(uuid "64b96a14-9eaa-4494-82aa-c7da7f737e19")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 0 2 0)
+			(layer "F.Fab")
+			(uuid "c547a435-29f9-4306-bf4d-4a24f41b78aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d381754-e4f9-4a9d-841b-f2c24910b336")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "15d73f4c-7843-4c55-b9e5-cf49457f4f0b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a4fd926-010f-404d-bbd8-2e39f56e39b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "Fiducial*")
+		(path "/98a58001-01ac-4ed9-8203-e347762cc52d")
+		(sheetname "Root")
+		(sheetfile "NerdNOS.kicad_sch")
+		(attr smd exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 1.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "93b63c72-ead4-48af-a2bc-c495f6977760")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "d558c85b-3c94-4ea6-857e-8d866c6dbc2c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "efad85af-424f-4461-bcda-b0f3fd62f60d")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "" smd circle
+			(at 0 0)
+			(size 1 1)
+			(layers "F.Cu" "F.Mask")
+			(solder_mask_margin 0.5)
+			(clearance 0.5)
+			(uuid "878ae130-732f-4c86-86db-bc8329603c5b")
+		)
+	)
 	(footprint "Capacitor_SMD:C_1210_3225Metric"
 		(layer "F.Cu")
 		(uuid "89295cb0-169a-40d1-954f-9c8b29675b4c")
@@ -6567,7 +6678,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C9"
-			(at 0.1 -1.2 360)
+			(at 0.1 -1.2 0)
 			(layer "F.SilkS")
 			(uuid "2abd0f2b-cee5-4a30-a2fd-36e8cbf09260")
 			(effects
@@ -6578,7 +6689,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "2a304f89-adb0-41a0-9084-1f4f68cb2812")
 			(effects
@@ -6756,7 +6867,7 @@
 			(uuid "31d2421f-a0e4-4bd3-bc8b-78787db52b51")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "8b5ccd0b-e9d3-46e4-a8df-f15d6a689c4d")
 			(effects
@@ -7306,12 +7417,25 @@
 				)
 			)
 		)
-		(property "PARTNO" "ERJ-6ENF4022V"
+		(property "PARTNO" "RC0603FR-0740K2L "
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "37acc7ae-8e6a-49fa-bb6d-9e1bd50df61f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DK" "311-40.2KHRTR-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "866499f8-5bd0-43dd-88c8-88125f5e373c")
 			(effects
 				(font
 					(size 1 1)
@@ -7545,6 +7669,8 @@
 			)
 		)
 		(path "/2975618e-ff95-4651-94c9-bab75a02691e/5952d26d-ed67-430d-ae4d-093881dd7274")
+		(sheetname "BM1397")
+		(sheetfile "bm1397.kicad_sch")
 		(fp_rect
 			(start -2.9 2.5)
 			(end -0.6 3.76)
@@ -11201,6 +11327,117 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "Fiducial:Fiducial_1mm_Mask2mm"
+		(layer "F.Cu")
+		(uuid "f90b7740-33ce-4d5b-95eb-f5a04edf2f58")
+		(at 81.9 55.1)
+		(descr "Circular Fiducial, 1mm bare copper, 2mm soldermask opening (Level A)")
+		(tags "fiducial")
+		(property "Reference" "FID1"
+			(at 0.1 2.1 0)
+			(layer "F.SilkS")
+			(uuid "be5ec529-4ed1-48aa-beb6-741241ffc857")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 0 2 0)
+			(layer "F.Fab")
+			(uuid "c731def7-b913-4f89-b8ac-fac5a3e548f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f57083f0-a07d-418e-9603-2ebe795f26ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb011d3c-3881-4bdd-961a-c45205ebe71e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eadb3f83-6c6e-44f5-8130-3cedb5ab9e96")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "Fiducial*")
+		(path "/e35fa01a-c0bc-4c57-81a1-892450ba55cd")
+		(sheetname "Root")
+		(sheetfile "NerdNOS.kicad_sch")
+		(attr smd exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 1.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "4ffb9e68-e2e1-41f5-ba85-8dceb94aeb82")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "91b61a41-d2a0-4bb1-bef5-0fca2b4bb25d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "5abb772b-83d3-4142-832b-c8036f5c8e72")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "" smd circle
+			(at 0 0)
+			(size 1 1)
+			(layers "F.Cu" "F.Mask")
+			(solder_mask_margin 0.5)
+			(clearance 0.5)
+			(uuid "de726e60-84ed-4d43-815d-ba64197593ba")
 		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
