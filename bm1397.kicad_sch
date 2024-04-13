@@ -4600,14 +4600,13 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "587-5514-1-ND"
+		(property "Value" "1uF"
 			(at 160.02 74.93 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -4819,14 +4818,13 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "587-5514-1-ND"
+		(property "Value" "1uF"
 			(at 95.25 127 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -5051,14 +5049,13 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "587-5514-1-ND"
+		(property "Value" "1uF"
 			(at 167.64 127 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -5130,14 +5127,13 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "587-5514-1-ND"
+		(property "Value" "1uF"
 			(at 115.57 74.93 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -5355,14 +5351,13 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "587-5514-1-ND"
+		(property "Value" "1uF"
 			(at 104.14 74.93 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -5923,14 +5918,13 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "587-5514-1-ND"
+		(property "Value" "1uF"
 			(at 81.28 74.93 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -6002,14 +5996,13 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "587-5514-1-ND"
+		(property "Value" "1uF"
 			(at 92.71 74.93 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -6169,14 +6162,13 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "587-5514-1-ND"
+		(property "Value" "1uF"
 			(at 102.87 127 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -6248,14 +6240,13 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "587-5514-1-ND"
+		(property "Value" "1uF"
 			(at 172.72 74.93 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -6787,14 +6778,13 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "587-5514-1-ND"
+		(property "Value" "1uF"
 			(at 148.59 74.93 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -7193,14 +7183,13 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "587-5514-1-ND"
+		(property "Value" "1uF"
 			(at 160.02 127 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -7360,14 +7349,13 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "587-5514-1-ND"
+		(property "Value" "1uF"
 			(at 184.15 74.93 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
