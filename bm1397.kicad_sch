@@ -4896,7 +4896,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k Thermistor"
 			(at 116.84 161.29 90)
 			(effects
 				(font
@@ -6317,7 +6317,7 @@
 				)
 			)
 		)
-		(property "Value" "MCP1824"
+		(property "Value" "MCP1824T-0802E"
 			(at 254.635 63.5 0)
 			(effects
 				(font
