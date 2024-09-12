@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0001
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -58,14 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "clearance|121940002|70165000|2aebf974-085b-496a-bd6f-8c70a2d3376f|9f13eca4-6592-45f9-971a-e95c01aa828b",
-        "clearance|123160000|70165000|594beaf0-7424-4ae9-9a7d-a66c38d95b99|1a28d452-f9e6-4b2d-9fc5-c02204be6418",
-        "hole_clearance|135335000|63140000|42c6ac97-77c3-43ea-a714-57b8025fcd3f|d11772ac-a832-4a22-9dd8-a73e1c298c25",
-        "hole_clearance|135335000|69240000|35dc8276-6035-4bd2-bd3b-0370195cb907|23136456-28ba-415a-970a-b4971ed25619",
-        "lib_footprint_mismatch|138300000|66190000|5529399f-d49d-43d7-a18b-0dc6ddae6345|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|85200000|62050000|530aba4b-e059-450f-8c5a-b5eea5287380|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -91,8 +84,8 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_issues": "ignore",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
@@ -102,13 +95,13 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
+        "silk_edge_clearance": "ignore",
+        "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
-        "text_height": "warning",
+        "text_height": "ignore",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -184,7 +177,14 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.2,
+        0.254,
+        0.4,
+        0.45,
+        0.5,
+        0.5,
+        0.6
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -216,6 +216,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -489,7 +493,7 @@
       "pos_files": "../PnP/NN/",
       "specctra_dsn": "",
       "step": "NerdNOS.step",
-      "svg": "",
+      "svg": "./",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -526,7 +530,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -544,7 +548,7 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -568,12 +572,42 @@
           "group_by": false,
           "label": "PARTNO",
           "name": "PARTNO",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OrderNr",
+          "name": "OrderNr",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Distributor",
+          "name": "Distributor",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
           "show": false
         }
       ],
@@ -625,7 +659,7 @@
   "sheets": [
     [
       "d95c6d04-3717-413a-8b9f-685b8757ddd5",
-      "Root"
+      "Stammblatt"
     ],
     [
       "331c1d5b-acb7-4a92-bb05-a68d5159c0e9",
